@@ -1,0 +1,5 @@
+Project setup with which the SandboxPolicy.UNTRUSTED cannot be used
+even though it should be possible.
+
+-> base-ui can be ignored, just for complete reference because the original
+project has two sub-modules
