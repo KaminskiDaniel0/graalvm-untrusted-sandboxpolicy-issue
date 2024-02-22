@@ -1,5 +1,8 @@
 Project setup with which the SandboxPolicy.UNTRUSTED cannot be used
 even though it should be possible.
+EDIT:
+s. Slack Thread https://graalvm.slack.com/archives/CP6RTC4LT/p1708435622691359
+The error only occurs when running the application with the DefaultTruffleRuntime which seems to not support UNTRUSTED sandboxPolicy
 
 -> base-ui can be ignored, just for complete reference because the original
 project has two sub-modules
